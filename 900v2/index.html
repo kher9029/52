@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest">
 <head>
-<title>مركز الملتقى لصيانة الموبايلات | Manual Exploitation</title>
+<title>مركز خير الله الموبايلات | Manual Exploitation</title>
 <link rel="stylesheet" href="../style.css">
 <script src="int64.js"></script>
 <script src="rop.js"></script>
@@ -13,7 +13,7 @@
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));for (let i=0; i<57; i++){document.getElementsByTagName("button")[i].removeAttribute("onmouseover");}for (let i=0; i<57; i++){document.getElementsByTagName("button")[i].removeAttribute("onmouseout");}window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
-<h1 id="msgs">مركز الملتقى لصيانة الموبايلات</h1>
+<h1 id="msgs">مركز خير الله الموبايلات</h1>
 <hr>
 <br>
 <div id="menu">
